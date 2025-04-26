@@ -1,0 +1,2 @@
+- name: Set REPO_LINK environment variable
+  run: echo "REPO_LINK=https://github.com/${GITHUB_REPOSITORY}" >> $GITHUB_ENV
